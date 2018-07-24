@@ -17,14 +17,17 @@ h1{
 .upper {
     height: 44px;
     background-color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .lower{
-    margin:0 auto;
+    /* border: red solid 1px; */
 }
 
 .lab {
-    float: left;
+    /* float: left;  */
+    display: inline-block;
     width: 100px;
     background-color: black;
     height: 40px;
